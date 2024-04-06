@@ -15,32 +15,6 @@
     --followTotal-color: #2b3442;
 }
 
-/* Light Mode */
-:root[color-mode="light"] {
-    --body-bg-color-: #f6f8ff;
-    --head-color-: #222731;
-    --darklight-color-: #697c9a;
-    --search-bg-color-: white;
-    --search-color-: #4b6a9b;
-    --black: black;
-    --follow-color-: #4b6a9b;
-    --followTotal-color: #2b3442;
-}
-
-/* Dark Mode */
-:root[color-mode="dark"] {
-    --body-bg-color-: #141d2f;
-    --head-color-: #ffffff;
-    --darklight-color-: #ffffff;
-    --search-bg-color-: #1e2a47;
-    --search-color-: #ffffff;
-    --black: white;
-    --follow-bg-color-: #f6f8ff;
-    --follow-color-: white;
-    --followTotal-color: #ffffff;
-    --social-color-: white;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }
