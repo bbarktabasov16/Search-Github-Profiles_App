@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Profiles</title>
+</head>
+<body>
+
+    <header>
+        <div class="head">Github Profiles</div>
+        <div class="light-dark mode">
+            <button class="color-mode__btn light--hidden" aria-label="Toggle light mode" onclick="toggleBody()">
+                LIGHT
+                <img src="./images/sun-regular.svg" alt="">
+            </button>
+            <button class="color-mode__btn dark--hidden" aria-label="Toggle dark mode" onclick="toggleBody()">
+                DARK
+                <img src="./images/moon-solid.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="searchText">
+            <img src="./images/magnifying-glass-solid.svg" alt="">
+            <input type="text" placeholder="Поиск имени пользователя на Github...">
+        </div>
+        <div class="searchBtn">Поиск</div>
+    </div>
+
+    <div class="resultBody">
+        <div class="githubHead">
+            <div class="mainImg"></div>
+            <div class="githubInfo">
+                <div class="githubUser">Имя Пользователя</div>
+                <div class="githubUserName"><a href="">@имя_пользователя</a></div>
+                <div class="githubJoinedDate">Дата Присоединения</div>
+            </div>
+        </div>
+
+        <div class="githubFact">
+            <div class="githubBio">Биография...</div>
+
+            <div class="githubRepo">
+                <div class="repos">
+                    <div class="repoHeading">Репозитории</div>
+                    <div class="repoTotal">0</div>
+                </div>
+                <div class="followers">
+                    <div class="followerHeading">Подписчики</div>
+                    <div class="followerTotal">0</div>
+                </div>
+                <div class="following">
+                    <div class="followingHeading">Подписки</div>
+                    <div class="followingTotal">0</div>
+                </div>
+            </div>
+
+            <div class="githubSocial">
+                <div class="location">
+                    <img src="./images/location-dot-solid.svg" alt="">
+                    <p class="locations">Местоположение</p>
+                </div>
+                <div class="twitter">
+                    <img src="./images/square-twitter.svg" alt="">
+                    <p class="twit">Twitter</p>
+                </div>
+                <div class="website">
+                    <img src="./images/link-solid.svg" alt="">
+                    <div class="websites">Website</div>
+                </div>
+                <div class="company">
+                    <img src="./images/building-solid.svg" alt="">
+                    <div class="companies">Company</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
